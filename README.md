@@ -5,6 +5,8 @@ An end-to-end Machine Learning project that predicts whether a telecom customer 
 ---
 
 ## Project Structure
+
+```
 churn-predictor/
 ├── data/
 │   ├── WA_Fn-UseC_-Telco-Customer-Churn.csv   # raw dataset
@@ -17,6 +19,8 @@ churn-predictor/
 ├── app.py                                      # Streamlit app (Week 4)
 ├── requirements.txt
 └── README.md
+```
+
 ---
 
 ## Tech Stack
