@@ -99,7 +99,7 @@ because class_weight="balanced" adjusted the decision boundary effectively.
 ## Week 4 — Streamlit App & Deployment 
 
 
-**Live App:** [Customer Churn Predictor](https://churn-predictor-iaw6tdvjpzuewk9dgofs7s.streamlit.app/) ← replace with your URL after deployment
+**Live App:** [Customer Churn Predictor](https://churn-predictor-iaw6tdvjpzuewk9dgofs7s.streamlit.app/)
 
 ### Features
 - 🎛️ **Interactive sidebar** — input any customer's details
@@ -141,7 +141,7 @@ streamlit run app.py
 
 ```bash
 # Clone the repo
-git clone https://github.com/YOUR_USERNAME/churn-predictor.git
+git clone https://github.com/manya-ghorpade/churn-predictor.git
 cd churn-predictor
 
 # Create and activate virtual environment
