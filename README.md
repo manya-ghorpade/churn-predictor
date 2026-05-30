@@ -81,7 +81,19 @@ churn-predictor/
 **Key insight:** LR outperformed RF on recall and AUC despite class imbalance,
 because class_weight="balanced" adjusted the decision boundary effectively.
 
-## Week 3 — SHAP Explainability *(coming soon)*
+## Week 3 — SHAP Explainability 
+
+**Tools:** SHAP LinearExplainer
+
+**Global insights:**
+- tenure is the strongest predictor (SHAP = 1.12)
+- InternetService_Fiber optic ranks 2nd — underestimated by correlation alone
+- Contract type and MonthlyCharges round out the top 5
+
+**Local explanation:**
+- Waterfall plots show per-customer churn drivers
+- High-risk customer: low tenure + fiber optic + no long-term contract + electronic check
+- Low-risk customer: high tenure + two-year contract + no fiber optic
 
 ## Week 4 — Streamlit App & Deployment *(coming soon)*
 
