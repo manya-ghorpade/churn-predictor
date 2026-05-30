@@ -99,7 +99,7 @@ because class_weight="balanced" adjusted the decision boundary effectively.
 ## Week 4 — Streamlit App & Deployment 
 
 
-**Live App:** [Customer Churn Predictor](https://your-app-url.streamlit.app) ← replace with your URL after deployment
+**Live App:** [Customer Churn Predictor](https://churn-predictor-iaw6tdvjpzuewk9dgofs7s.streamlit.app/) ← replace with your URL after deployment
 
 ### Features
 - 🎛️ **Interactive sidebar** — input any customer's details
