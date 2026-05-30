@@ -116,6 +116,9 @@ streamlit run app.py
 ### App Screenshots
 
 **High Risk Customer (95.4% churn probability)**
+<img width="463" height="435" alt="Screenshot 2026-05-30 194342" src="https://github.com/user-attachments/assets/8e683b68-fc62-4bf4-b7f2-3c31293675bc" />
+<img width="467" height="407" alt="Screenshot 2026-05-30 194350" src="https://github.com/user-attachments/assets/555447f7-6cbf-4c76-9f88-708fd42857fc" />
+<img width="473" height="409" alt="Screenshot 2026-05-30 194356" src="https://github.com/user-attachments/assets/f218bc8f-d643-4b49-b4c2-cd8d12c3e6fe" />
 > New customer on fiber optic with month-to-month contract and electronic check payment
 
 **Low Risk Customer (1.3% churn probability)**  
