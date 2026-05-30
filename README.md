@@ -65,7 +65,21 @@ churn-predictor/
 
 ---
 
-## Week 2 — ML Models *(in progress)*
+## Week 2 — ML Models 
+
+**Models trained:** Logistic Regression, Random Forest (scikit-learn Pipeline)
+
+**Final model:** Logistic Regression with class_weight="balanced"
+
+| Metric | Logistic Regression | Random Forest |
+|---|---|---|
+| Churn Recall | 0.79 | 0.49 |
+| Churn Precision | 0.49 | 0.63 |
+| Churn F1 | 0.61 | 0.56 |
+| ROC-AUC | **0.8353** | 0.8179 |
+
+**Key insight:** LR outperformed RF on recall and AUC despite class imbalance,
+because class_weight="balanced" adjusted the decision boundary effectively.
 
 ## Week 3 — SHAP Explainability *(coming soon)*
 
