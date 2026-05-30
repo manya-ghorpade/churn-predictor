@@ -119,9 +119,14 @@ streamlit run app.py
 <img width="463" height="435" alt="Screenshot 2026-05-30 194342" src="https://github.com/user-attachments/assets/8e683b68-fc62-4bf4-b7f2-3c31293675bc" />
 <img width="467" height="407" alt="Screenshot 2026-05-30 194350" src="https://github.com/user-attachments/assets/555447f7-6cbf-4c76-9f88-708fd42857fc" />
 <img width="473" height="409" alt="Screenshot 2026-05-30 194356" src="https://github.com/user-attachments/assets/f218bc8f-d643-4b49-b4c2-cd8d12c3e6fe" />
+
 > New customer on fiber optic with month-to-month contract and electronic check payment
 
 **Low Risk Customer (1.3% churn probability)**  
+<img width="958" height="438" alt="Screenshot 2026-05-30 203411" src="https://github.com/user-attachments/assets/81d36074-a305-4a28-bc6a-1e7e37f662c7" />
+<img width="467" height="404" alt="Screenshot 2026-05-30 203455" src="https://github.com/user-attachments/assets/82b62788-b26b-4dea-a5ec-df404c9837a5" />
+<img width="473" height="260" alt="Screenshot 2026-05-30 203502" src="https://github.com/user-attachments/assets/b5ebf0f7-b97f-4d0a-a8d7-a977b02ae3ef" />
+
 > Long-tenure customer on two-year contract with DSL, tech support and online security
 
 ### Tech Stack
