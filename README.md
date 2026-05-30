@@ -96,7 +96,36 @@ because class_weight="balanced" adjusted the decision boundary effectively.
 - High-risk customer: low tenure + fiber optic + no long-term contract + electronic check
 - Low-risk customer: high tenure + two-year contract + no fiber optic
 
-## Week 4 — Streamlit App & Deployment *(coming soon)*
+## Week 4 — Streamlit App & Deployment 
+
+
+**Live App:** [Customer Churn Predictor](https://your-app-url.streamlit.app) ← replace with your URL after deployment
+
+### Features
+- 🎛️ **Interactive sidebar** — input any customer's details
+- 📊 **Churn probability** — real-time prediction with risk level indicator
+- 🔍 **SHAP waterfall plot** — explains exactly which features drove the prediction
+- 📋 **Plain English summary** — translates SHAP into business-readable insights
+- 💡 **Recommended actions** — tells retention team what to do about at-risk customers
+
+### How to run locally
+```bash
+streamlit run app.py
+```
+
+### App Screenshots
+
+**High Risk Customer (95.4% churn probability)**
+> New customer on fiber optic with month-to-month contract and electronic check payment
+
+**Low Risk Customer (1.3% churn probability)**  
+> Long-tenure customer on two-year contract with DSL, tech support and online security
+
+### Tech Stack
+- **Frontend:** Streamlit
+- **Explainability:** SHAP LinearExplainer
+- **Model:** Logistic Regression (scikit-learn Pipeline)
+- **Deployment:** Streamlit Cloud (free tier)
 
 ---
 
