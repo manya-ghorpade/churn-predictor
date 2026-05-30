@@ -14,8 +14,9 @@ churn-predictor/
 │   ├── churn_distribution.png
 │   └── correlation_heatmap.png
 ├── notebooks/
-│   └── EDA.ipynb                               # Week 1 — EDA
-├── src/                                        # ML pipeline (Week 2)
+│   |── EDA.ipynb
+|   |── models.ipynb
+|   |── SHAP.ipynb                             # Week 1 — EDA
 ├── app.py                                      # Streamlit app (Week 4)
 ├── requirements.txt
 └── README.md
